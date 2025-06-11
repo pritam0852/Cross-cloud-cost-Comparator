@@ -1,0 +1,213 @@
+/* --- Reusing the same modal structure from BothTableView.css --- */
+/* You could abstract this into a single Modal.css if you wanted to be even more DRY */
+
+/* --- Modal Backdrop & Animations --- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translate(-50%, -60%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 24, 39, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+  background-color: var(--color-surface-1);
+  color: var(--color-text-primary);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--color-surface-2);
+  width: 90vw;
+  max-width: 1400px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed; /* Use fixed for animation */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: slideIn 0.4s ease-out;
+}
+
+/* --- Modal Header --- */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(var(--spacing-unit) * 2) calc(var(--spacing-unit) * 3);
+  border-bottom: 1px solid var(--color-surface-2);
+}
+
+.modal-header h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  padding: var(--spacing-unit);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.close-button:hover {
+  background-color: var(--color-surface-2);
+  color: var(--color-text-primary);
+}
+
+/* --- Filter Bar --- */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--spacing-unit) * 2);
+  padding: calc(var(--spacing-unit) * 2) calc(var(--spacing-unit) * 3);
+  border-bottom: 1px solid var(--color-surface-2);
+}
+
+.filter-input {
+  flex-grow: 1;
+  min-width: 200px;
+  padding: calc(var(--spacing-unit) * 1.25);
+  font-size: 0.95rem;
+  border: 1px solid var(--color-surface-2);
+  border-radius: var(--border-radius-md);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+}
+select.filter-input {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%239CA3AF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 0.75rem center;
+  background-repeat: no-repeat;
+  background-size: 1.25em 1.25em;
+  padding-right: 2.5rem;
+}
+
+/* --- Table Styles --- */
+.table-container {
+  overflow-y: auto; /* This makes the table body scrollable */
+  padding: 0 calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 2);
+  flex-grow: 1;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: calc(var(--spacing-unit) * 1.5) var(--spacing-unit);
+  text-align: left;
+  border-bottom: 1px solid var(--color-surface-2);
+  white-space: nowrap;
+}
+
+.data-table th {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-surface-1);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  z-index: 10;
+}
+
+.data-table tbody tr:hover {
+  background-color: var(--color-surface-2);
+}
+
+.instance-type {
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.price-cell {
+  font-weight: 500;
+  color: var(--color-best-value); /* Cyan color for prices */
+}
+
+/* --- Loading & No Results --- */
+.loading-message, .no-results-message {
+  text-align: center;
+  padding: calc(var(--spacing-unit) * 5);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* --- Pagination --- */
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(var(--spacing-unit) * 2) 0;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  position: sticky;
+  bottom: 0;
+  background-color: var(--color-surface-1);
+}
+
+.pagination-buttons {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-unit);
+}
+
+.pagination-buttons button {
+  background: var(--color-surface-2);
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-surface-2);
+  padding: calc(var(--spacing-unit) * 0.75) calc(var(--spacing-unit) * 1.5);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pagination-buttons button:hover:not(:disabled) {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.pagination-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-buttons span {
+    padding: 0 var(--spacing-unit);
+}

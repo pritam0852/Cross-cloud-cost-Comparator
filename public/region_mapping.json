@@ -1,0 +1,233 @@
+[
+    {
+        "AWS Region Code": "us-east-1",
+        "AWS Region Name": "US East (N. Virginia)",
+        "GCP Region Code": "us-east4",
+        "GCP Region Name": "N. Virginia",
+        "Normalized Geographic Name": "North America"
+    },
+    {
+        "AWS Region Code": "us-east-2",
+        "AWS Region Name": "US East (Ohio)",
+        "GCP Region Code": "us-east5",
+        "GCP Region Name": "Columbus",
+        "Normalized Geographic Name": "North America"
+    },
+    {
+        "AWS Region Code": "us-west-1",
+        "AWS Region Name": "US West (N. California)",
+        "GCP Region Code": "us-west2",
+        "GCP Region Name": "Los Angeles",
+        "Normalized Geographic Name": "North America"
+    },
+    {
+        "AWS Region Code": "us-west-2",
+        "AWS Region Name": "US West (Oregon)",
+        "GCP Region Code": "us-west1",
+        "GCP Region Name": "Oregon",
+        "Normalized Geographic Name": "North America"
+    },
+    {
+        "AWS Region Code": "ca-central-1",
+        "AWS Region Name": "Canada (Central)",
+        "GCP Region Code": "northamerica-northeast1",
+        "GCP Region Name": "Montr\u00e9al",
+        "Normalized Geographic Name": "North America"
+    },
+    {
+        "AWS Region Code": "ca-west-1",
+        "AWS Region Name": "Canada West (Calgary)",
+        "GCP Region Code": "us-west1",
+        "GCP Region Name": "Oregon",
+        "Normalized Geographic Name": "North America"
+    },
+    {
+        "AWS Region Code": "mx-central-1",
+        "AWS Region Name": " Mexico (Central)",
+        "GCP Region Code": "us-south1",
+        "GCP Region Name": "Dallas",
+        "Normalized Geographic Name": "North America"
+    },
+    {
+        "AWS Region Code": "sa-east-1",
+        "AWS Region Name": "South America (S\u00e3o Paulo)",
+        "GCP Region Code": "southamerica-east1",
+        "GCP Region Name": "S\u00e3o Paulo",
+        "Normalized Geographic Name": "South America"
+    },
+    {
+        "AWS Region Code": "eu-west-1",
+        "AWS Region Name": "Europe (Ireland)",
+        "GCP Region Code": "europe-west2",
+        "GCP Region Name": "London",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "eu-west-2",
+        "AWS Region Name": "Europe (London)",
+        "GCP Region Code": "europe-west2",
+        "GCP Region Name": "London",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "eu-west-3",
+        "AWS Region Name": "Europe (Paris)",
+        "GCP Region Code": "europe-west9",
+        "GCP Region Name": "Paris",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "eu-central-1",
+        "AWS Region Name": "Europe (Frankfurt)",
+        "GCP Region Code": "europe-west3",
+        "GCP Region Name": "Frankfurt",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "eu-central-2",
+        "AWS Region Name": "Europe (Zurich)",
+        "GCP Region Code": "europe-west6",
+        "GCP Region Name": "Zurich",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "eu-south-1",
+        "AWS Region Name": "Europe (Milan)",
+        "GCP Region Code": "europe-west8",
+        "GCP Region Name": "Milan",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "eu-south-2",
+        "AWS Region Name": "Europe (Spain)",
+        "GCP Region Code": "europe-southwest1",
+        "GCP Region Name": "Madrid",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "eu-north-1",
+        "AWS Region Name": "Europe (Stockholm)",
+        "GCP Region Code": "europe-north1",
+        "GCP Region Name": "Hamina",
+        "Normalized Geographic Name": "Europe"
+    },
+    {
+        "AWS Region Code": "ap-northeast-1",
+        "AWS Region Name": "Asia Pacific (Tokyo)",
+        "GCP Region Code": "asia-northeast1",
+        "GCP Region Name": "Tokyo",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-northeast-2",
+        "AWS Region Name": "Asia Pacific (Seoul)",
+        "GCP Region Code": "asia-northeast3",
+        "GCP Region Name": "Seoul",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-northeast-3",
+        "AWS Region Name": "Asia Pacific (Osaka)",
+        "GCP Region Code": "asia-northeast2",
+        "GCP Region Name": "Osaka",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-south-1",
+        "AWS Region Name": "Asia Pacific (Mumbai)",
+        "GCP Region Code": "asia-south1",
+        "GCP Region Name": "Mumbai",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-south-2",
+        "AWS Region Name": "Asia Pacific (Hyderabad)",
+        "GCP Region Code": "asia-south1",
+        "GCP Region Name": "Mumbai",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-southeast-1",
+        "AWS Region Name": "Asia Pacific (Singapore)",
+        "GCP Region Code": "asia-southeast1",
+        "GCP Region Name": "Singapore",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-southeast-2",
+        "AWS Region Name": "Asia Pacific (Sydney)",
+        "GCP Region Code": "australia-southeast1",
+        "GCP Region Name": "Sydney",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-southeast-3",
+        "AWS Region Name": "Asia Pacific (Jakarta)",
+        "GCP Region Code": "asia-southeast2",
+        "GCP Region Name": "Jakarta",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-southeast-4",
+        "AWS Region Name": "Asia Pacific (Melbourne)",
+        "GCP Region Code": "australia-southeast2",
+        "GCP Region Name": "Melbourne",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-southeast-5",
+        "AWS Region Name": "Asia Pacific (Malaysia)",
+        "GCP Region Code": "asia-southeast1",
+        "GCP Region Name": "Singapore",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-southeast-7",
+        "AWS Region Name": "Asia Pacific (Thailand)",
+        "GCP Region Code": "asia-southeast1",
+        "GCP Region Name": "Singapore",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-east-1",
+        "AWS Region Name": "Asia Pacific (Hong Kong)",
+        "GCP Region Code": "asia-east2",
+        "GCP Region Name": "Hong Kong",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "ap-east-2",
+        "AWS Region Name": "Asia Pacific (Taipei)",
+        "GCP Region Code": "asia-east1",
+        "GCP Region Name": "Taiwan",
+        "Normalized Geographic Name": "Asia Pacific"
+    },
+    {
+        "AWS Region Code": "me-south-1",
+        "AWS Region Name": "Middle East (Bahrain)",
+        "GCP Region Code": "me-central2",
+        "GCP Region Name": "Dammam",
+        "Normalized Geographic Name": "Middle East"
+    },
+    {
+        "AWS Region Code": "me-central-1",
+        "AWS Region Name": "Middle East (UAE - Dubai)",
+        "GCP Region Code": "me-central1",
+        "GCP Region Name": "Doha",
+        "Normalized Geographic Name": "Middle East"
+    },
+    {
+        "AWS Region Code": "il-central-1",
+        "AWS Region Name": "Middle East (Israel)",
+        "GCP Region Code": "me-west1",
+        "GCP Region Name": "Tel Aviv",
+        "Normalized Geographic Name": "Middle East"
+    },
+    {
+        "AWS Region Code": "af-south-1",
+        "AWS Region Name": "Africa (Cape Town)",
+        "GCP Region Code": "africa-south1",
+        "GCP Region Name": "Johannesburg",
+        "Normalized Geographic Name": "Africa"
+    }
+]
